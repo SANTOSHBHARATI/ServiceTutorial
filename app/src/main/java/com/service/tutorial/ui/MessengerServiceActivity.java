@@ -10,10 +10,8 @@ import android.os.Messenger;
 import android.os.RemoteException;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.Toast;
 
 import com.service.tutorial.R;
-import com.service.tutorial.localbinderservice.LocalService;
 import com.service.tutorial.messengerservice.MessengerService;
 
 public class MessengerServiceActivity extends AppCompatActivity {
@@ -51,7 +49,7 @@ public class MessengerServiceActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_service);
     }
 
     @Override

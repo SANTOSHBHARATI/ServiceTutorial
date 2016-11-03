@@ -8,20 +8,20 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ui.MessengerServiceActivity">
+        <activity android:name=".ui.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".ui.MessengerServiceActivity"/>
+        <activity android:name=".ui.StartedServiceActivity"/>
         <activity android:name=".ui.LocalBinderServiceActivity"/>
         <service android:name=".localbinderservice.LocalService"
-            android:exported="false"
-            />
+            android:exported="false"/>
         <service android:name=".messengerservice.MessengerService"
-            android:exported="false"
-            />
+            android:exported="false" />
     </application>
 
 </manifest>
