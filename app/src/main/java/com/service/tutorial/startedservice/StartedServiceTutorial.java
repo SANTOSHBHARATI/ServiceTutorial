@@ -1,4 +1,4 @@
-package com.service.tutorial.service;
+package com.service.tutorial.startedservice;
 
 import android.app.Service;
 import android.content.Intent;
@@ -14,7 +14,7 @@ import android.widget.Toast;
  * Created by santosh.bharati on 11/2/2016.
  */
 
-public class ServiceTutorial extends Service {
+public class StartedServiceTutorial extends Service {
 
     private Looper mLoopService;
     private ServiceHandler mServiceHandler;
